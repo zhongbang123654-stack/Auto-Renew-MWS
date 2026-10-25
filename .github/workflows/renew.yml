@@ -3,7 +3,7 @@ name: Auto Renew MWS
 
 on:
   schedule: 
-    - cron: '30 22 */6 * *' # 每6天UTC 22:30 (北京时间6点半, 一般都会推迟8点之后运行),可自行调整
+    - cron: '30 22 */3 * *' # 每6天UTC 22:30 (北京时间6点半, 一般都会推迟8点之后运行),可自行调整
   workflow_dispatch:
 
 jobs:
